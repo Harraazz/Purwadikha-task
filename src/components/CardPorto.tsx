@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card";
 
 interface CardPortoProps {
-  id: string;
+  id?: string;
   title: string;
   description: string;
   badge: string;
